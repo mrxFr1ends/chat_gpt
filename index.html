@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+  </head>
+  <body>
+    <div class="container">
+      <ul class="chat-messages" id="chat">
+        <li class="chat-message-container start from">
+          <div class="message-icon">
+            <div class="error-icon">!</div>
+            <img src="./chat-gpt-icon.svg" />
+          </div>
+          <div class="message-content">
+            Тут стартовое сообщение, но мне так в падлу вообще придумывать хоть
+            что-то, по этому пусть здесь будет просто рандомный мой высер. :))
+          </div>
+        </li>
+      </ul>
+      <div class="input-container">
+        <form id="input-form">
+          <input type="text" id="input-message" />
+          <div class="input-send" id="input-send-message">
+            <img src="./send-icon.svg" />
+          </div>
+          <div class="clear-history" id="clear-history">
+            <img src="./trash-can-icon.svg" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
