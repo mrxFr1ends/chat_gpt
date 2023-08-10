@@ -159,3 +159,14 @@ body {
     width: 86%;
   }
 }
+@media (max-width: 500px) {
+  .chat-message-container {
+    padding: 20px 10px;
+  }
+  .input-container {
+    padding: 20px 60px;
+  }
+  .message-content {
+    width: 88%;
+  }
+}
