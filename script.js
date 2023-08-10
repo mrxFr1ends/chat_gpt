@@ -7,7 +7,7 @@ const messageHTML = (message, isBotMessage, isError) =>
   `<li class="chat-message-container ${isBotMessage ? "from" : "my"} ${isError ? "error" : ""}">
     <div class="message-icon">
       <div class="error-icon">!</div>
-      <img src="${isBotMessage ? "./chat-gpt-icon.svg" : "./user-icon.svg"}" />
+      <img src="assets/${isBotMessage ? "./chat-gpt-icon.svg" : "./user-icon.svg"}" />
     </div>
     <div class="message-content">${message}</div>
   </li>`;
